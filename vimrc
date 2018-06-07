@@ -26,10 +26,11 @@ set termguicolors
 
 " Set theme to gruvbox
 colorscheme gruvbox
+set background=dark
 let g:gruvbox_italic=1
 
 " Add airline font
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts=1
 
 
 " ========== Enhancing Editing Experience ==========
