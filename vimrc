@@ -35,7 +35,8 @@ let g:airline_powerline_fonts=1
 
 " ========== Enhancing Editing Experience ==========
 " Better copy & paste
-set clipboard=unnamed
+set clipboard=unnamed "in MacOS
+set clipboard=unnamedplus " in Ubuntu
 
 " Configure backspace so it acts as it should act
 set backspace=eol,start,indent
