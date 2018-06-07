@@ -35,9 +35,9 @@ function cd {
     }
 
 # some aliases
-alias cl='clear'
 alias ll='ls -l'
 alias la='ls -a'
+alias cl='clear'
 alias sb='source ~/.bash_profile'
 alias ..='cd ..'
 alias project='cd ~/Projects'
