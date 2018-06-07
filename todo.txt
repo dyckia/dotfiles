@@ -1,0 +1,6 @@
+## todo in vim
+remap dd and D to not to copy to default register 
+
+
+## todo in bash
+git commit -m 		to 	gcom -m 
