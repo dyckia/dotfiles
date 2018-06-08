@@ -6,6 +6,5 @@ remap dd and D to not to copy to default register
 git commit -m 		to 	gcom -m 
 
 
-## todo in Mac
-copy inputrc to dotfiles
-ln Tline
+## todo in Ubuntu
+source inputrc
