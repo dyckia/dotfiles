@@ -8,3 +8,8 @@ git commit -m 		to 	gcom -m
 
 ## todo in Ubuntu
 source inputrc
+
+
+## todo research
+tmuxline settings
+airline settings

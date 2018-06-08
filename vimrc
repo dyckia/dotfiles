@@ -17,8 +17,6 @@ set nocompatible " no vi-compatible
 " Automatic reloading of .vimrc
 autocmd bufwritepost .vimrc source %
 
-" autocmd Tmuxline
-
 " Enable true color
 let &t_8f="\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b="\<Esc>[48;2;%lu;%lu;%lum"
@@ -35,8 +33,8 @@ let g:airline_powerline_fonts=1
 
 " ========== Enhancing Editing Experience ==========
 " Better copy & paste
-set clipboard=unnamed "in MacOS
-set clipboard=unnamedplus " in Ubuntu
+" set clipboard=unnamed "in MacOS
+" set clipboard=unnamedplus " in Ubuntu
 
 " Configure backspace so it acts as it should act
 set backspace=eol,start,indent
