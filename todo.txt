@@ -1,13 +1,15 @@
 ## todo in vim
 remap dd and D to not to copy to default register 
+how to use tabs & buffer in vim
+file navigation in vim
+
+
+## todo in tmux
+set keybinds to quickly swap panes
 
 
 ## todo in bash
-git commit -m 		to 	gcom -m 
-
-
-## todo in Ubuntu
-source inputrc
+set git commit -m 		to 	gcom -m 
 
 
 ## todo research
