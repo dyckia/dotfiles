@@ -13,7 +13,6 @@
     co = commit
     ck = checkout
     br = branch
-    st = add
     ust = reset HEAD
     stage = add
 	unstage = reset HEAD

@@ -45,3 +45,4 @@ alias tl='tmux ls'
 alias editbash='vim ~/.bash_profile'
 alias editvim='vim ~/.vimrc'
 alias edittmux='vim ~/.tmux.conf'
+alias jupyter="jupyter notebook"
