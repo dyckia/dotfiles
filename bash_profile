@@ -1,5 +1,5 @@
-# Setting Anaconda(Python 2.7) as default by changing PATH
-export PATH="~/anaconda/bin:$PATH"
+# added by Anaconda3 5.2.0 installer
+export PATH="/anaconda3/bin:$PATH"
 
 # Enable tab completion in git
 source ~/Projects/dotfiles/git_completion.bash
@@ -26,8 +26,8 @@ export LSCOLORS=exfxhxhxcxhxhxhxhxhxhx
 # true color
 alias ssh='TERM=xterm-256color ssh'
 
-# set default editor to vim
-export EDITOR='vim'
+# set default editor to neovim
+export EDITOR='nvim'
 
 # custom cd
 function cd {
@@ -42,7 +42,8 @@ alias sb='source ~/.bash_profile'
 alias ..='cd ..'
 alias project='cd ~/Projects'
 alias tl='tmux ls' 
-alias editbash='vim ~/.bash_profile'
-alias editvim='vim ~/.vimrc'
-alias edittmux='vim ~/.tmux.conf'
+alias editbash='nvim ~/.bash_profile'
+alias editvim='nvim ~/.vimrc'
+alias edittmux='nvim ~/.tmux.conf'
 alias jupyter="jupyter notebook"
+
