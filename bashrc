@@ -87,18 +87,6 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-alias cl='clear'
-alias sb='source ~/.bash_profile'
-alias ..='cd ..'
-alias project='cd ~/Projects'
-alias tl='tmux ls' 
-alias editbash='vim ~/.bash_profile'
-alias editvim='vim ~/.vimrc'
-alias edittmux='vim ~/.tmux.conf'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -134,8 +122,8 @@ source ~/catkin_ws/devel/setup.bash
 # set environment variable TERM
 export TERM=xterm-256color-italic
 
-# set default editor to vim
-export EDITOR='vim'
+# set default editor to neovim
+export EDITOR='nvim'
 
 # custom cd
 function cd {
@@ -148,3 +136,18 @@ source ~/Projects/dotfiles/git_completion.bash
 # Change command prompt
 source ~/Projects/dotfiles/git_prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
+
+
+# some aliases
+alias ll='ls -l'
+alias la='ls -a'
+alias cl='clear'
+alias sb='source ~/.bash_profile'
+alias ..='cd ..'
+alias project='cd ~/Projects'
+alias tl='tmux ls' 
+alias editbash='nvim ~/.bash_profile'
+alias editvim='nvim ~/.vimrc'
+alias edittmux='nvim ~/.tmux.conf'
+alias jupyter="jupyter notebook"
+
